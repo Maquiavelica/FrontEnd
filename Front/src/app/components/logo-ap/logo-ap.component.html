@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <a href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"
+            target="_blank">
+            <img src="../../../assets/Logo_Argentina_Programa.png" id="logoAP" alt="Argentina Programa">
+          </a>
+        
+        </div>
+        <div class="redes">
+            <a href="https://ar.linkedin.com/"><img src="../../../assets/Logo_Linkedin.png" id="linkedin"></a>
+            <a href="https://github.com/Maquiavelica"><img src="../../../assets/Logo_Github.png" id="github"></a>
+            <button type="button" class="btn btn-primary btn-sm" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+            <button type="button" class="btn btn-primary btn-sm" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,11 @@
+.row{
+    padding: 10px;
+    color:#1d7245 !important; background-color:#edfaf4 !important;
+    }
+    div{color:#000 !important; background-color:#edfaf4 !important;
+        text-align: left;
+    }
+
+h1, h3{
+    display: inline;
+}

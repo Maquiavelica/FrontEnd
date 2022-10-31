@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="modal-header" style="background-color: #eaf2f3">
+        <h2 class="mt-2 mt-h2 modal-title">Agregar Experiencia</h2>
+      </div>    
+        <div class="form-group" style="background-color: #eaf2f3">
+            <form (ngSubmit)="onCreate()" novalidate #f="ngForm">
+                <div class="form-group">
+                    <label for="nombreE">Nombre de la empresa</label>
+                    <input type="text" class="form-control" id="nombreE" name="nombreE" [(ngModel)]="nombreE" required>
+                </div>
+                <div class="form-group">
+                    <label for="descripcionE">Descripción de la tarea</label>
+                    <input type="text" class="form-control" id="descripcionE" name="descripcionE" [(ngModel)]="descripcionE" required>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success">
+                        Agregar Información
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
